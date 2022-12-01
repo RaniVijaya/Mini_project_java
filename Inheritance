@@ -1,0 +1,38 @@
+
+
+import java.util.*;
+//Let us rock and roll
+ class Animal
+{
+    
+    public static void Eat()
+    {
+        System.out.println("eating");
+    }
+
+    public static void Dog()
+    {
+        System.out.println("barking");
+    }
+    public static void Cat()
+    {
+        System.out.println("meow");
+    }
+}
+   class Inherit extends Animal
+{
+    public static void puppy()
+    {
+        System.out.println("pandi");
+    }
+
+      public static void main(String[] args)
+{
+        Animal a=new Animal();
+          puppy();
+          a.Eat();
+          a.Dog();
+          a.Cat();
+          
+    }
+}
